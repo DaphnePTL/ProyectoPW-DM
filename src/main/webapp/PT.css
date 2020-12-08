@@ -1,0 +1,125 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/12/2020, 10:05:24 AM
+    Author     : Daphne
+*/
+
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner img{
+width: 100%;
+height: 100%;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+#banner h2{
+    font-size: 28px;
+
+}
+
+#banner a{
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration:none;
+    padding: 7px;
+    margin-top:10px;
+    border: 3px solid #fff;
+}
+
+#banner a:hover{
+    background: rgba(51,51,51,0.5)
+}
+
+
+#foro .contenedor{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+#foro article{
+    margin:15px;
+
+}
+
+#foro img{
+    width: 100%;
+    max-width: 280px;
+    max-height: 150px;
+}
+
+#foro h4{
+    text-align:center;
+    color: #fff;
+}
+
+#infox{
+    background: #333;
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+}
+
+#infox .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.infomas{
+    margin: 20px;
+
+}
+
+.infomas img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy{
+    font-size: 20px;
+    color: #fff;
+}
+
+.rs{
+    width:100%;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+.rs i{
+    color: #fff;
+    text-decoration: none;
+}

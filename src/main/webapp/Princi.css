@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8/12/2020, 10:19:03 AM
+    Author     : Daphne
+*/
+
+.column {
+    float: left;
+    width: 70%;
+  }
+  
+  .column2{
+    float: left;
+    width: 30%;
+  }
+
+  .column3{
+    width:100%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ .row.estructura{
+     margin-left: 100px;
+     margin-right: 100px;
+ }
+
+
+ .imagenx{
+     float:left;
+      width: 30%;
+ }
+
+ .texto{
+     
+  
+     float :right ;
+     font-size: 35;
+     font-style: bold;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: rgb(107, 167, 47);
+     width: 70%;
+     padding-left:20px;
+ }
+
+ .noticia{
+    border-bottom: 0.1px solid black;
+ }
+
+ .estructn{
+  margin-left: 300px;
+  margin-right: 300px;
+ }
+
+ .tex{
+   text-align: center;
+   font-style:bond;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color:black;
+
+ }
+
+ .info{
+  text-align: center;
+  font-size: medium;
+  font-family:Arial, Helvetica, sans-serif;
+  color:black;
+
+}
+ 
+.restex{
+  text-align: left;
+  font-style:bond;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:black;
+
+}
+
+
+.column3 {
+  float: left;
+  width: 30%;
+}
+
+.column4{
+  float: left;
+  width: 70%;
+}
+
+.column5{
+  float:left;
+  width:100%;
+}
+
+.noticia2{
+  border-top: 0.1px solid black;
+}
+
+.icono{ 
+  align-content: flex-start;
+}
+
+
+.banner{
+  
+  width:50%;
+  height: 75%;
+
+}
+
+#info .contenedor{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+
+}
+
+#info{
+  width:100%;
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+
+.infoex{
+  margin:20px;
+}
+
+.infoex img{
+width:180px;
+height:180px;
+border-radius: 50%;
+border: 7px solid #fff
+}
